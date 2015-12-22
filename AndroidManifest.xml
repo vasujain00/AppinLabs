@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidhive"
+    android:versionCode="1"
+    android:versionName="1.0" >
+<!-- main class -->
+    <uses-sdk
+        android:minSdkVersion="8"/>
+    
+ <application
+        android:allowBackup="true"
+        android:icon="@drawable/rt"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:label="@string/app_name"
+            android:name="com.example.androidhive.appinAdmin.Login" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androidhive.appinAdmin.MainClass" >
+        </activity>
+        <activity
+            android:name="com.example.androidhive.appinAdmin.user_info" >
+        </activity>
+        <activity
+            android:name="com.example.androidhive.appinAdmin.admin_list" >
+        </activity> 
+      <activity
+            android:name="com.example.androidhive.appinAdmin.First" >
+        </activity> 
+     <activity
+            android:name="com.example.androidhive.appinAdmin.Welcome" >
+        </activity> 
+        <activity
+            android:name="com.example.androidhive.appinAdmin.ChangePas" >
+        </activity> 
+         <activity
+            android:name="com.example.androidhive.appinAdmin.Addphoto" >
+        </activity>
+     
+     
+       
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+        </manifest>
